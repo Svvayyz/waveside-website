@@ -1,0 +1,339 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waveside</title>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Raleway');
+        #przycisk {
+            margin-left: auto;
+            margin-right: auto;
+            position:relative; bottom:-460px; left:820;top:265;
+
+            margin: center;
+            touch-action: manipulation;
+            user-select: none;
+            cursor: pointer;
+            white-space: nowrap;
+            text-decoration: none;
+            text-align: center;
+            border: 0;
+            transition: all 250ms ease-in;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            background: linear-gradient(to right, rgb(92,127,246),rgb(19,68,237));
+            background-repeat: no-repeat;
+            border-radius: 3px;
+            width: 250px;
+            height: 30;
+            font-family: 'Raleway',Sans-serif;
+            transition: 0.5s;
+            font-size: 15px;
+            background-color: white;
+            -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+            -moz-animation: fadein 2s; /* Firefox < 16 */
+            -ms-animation: fadein 2s; /* Internet Explorer */
+            -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+            color: white;
+            font-style: bold;
+            font-size: 15px;
+        };
+        
+       body {
+        padding: 1rem 0.5rem;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+        font-family: 'Raleway',Sans-serif;
+       }
+        #scout {
+            -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+             -moz-animation: fadein 2s; /* Firefox < 16 */
+            -ms-animation: fadein 2s; /* Internet Explorer */
+            -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+            position: relative; top:1200; right: -525;
+        }
+        #scout2 {
+            -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+             -moz-animation: fadein 2s; /* Firefox < 16 */
+            -ms-animation: fadein 2s; /* Internet Explorer */
+            -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+            position: relative; top:1190; right: -600;
+        }
+        #tekst {
+            margin-left: auto;
+            margin-right: auto;
+            touch-action: manipulation;
+            user-select: none;
+            white-space: nowrap;
+            text-decoration: none;
+            text-align: center;
+            font-size: 75px;
+            font-family: 'Raleway',Sans-serif;
+            font-stretch: expanded;
+            -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+             -moz-animation: fadein 2s; /* Firefox < 16 */
+            -ms-animation: fadein 2s; /* Internet Explorer */
+            -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+            color: white;
+            size: 75px;
+        }
+        #tekst2 {
+            margin-left: auto;
+            margin-right: auto;
+            touch-action: manipulation;
+            user-select: none;
+            white-space: nowrap;
+            text-decoration: none;
+            text-align: center;
+            font-size: 25px;
+            position:relative; bottom:70px;
+            font-family: 'Raleway',Sans-serif;
+            font-stretch: expanded;
+            -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+             -moz-animation: fadein 2s; /* Firefox < 16 */
+            -ms-animation: fadein 2s; /* Internet Explorer */
+            -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+            color: rgb(141, 141, 141);
+            size: 25px;
+
+        }
+        #tekst3 {
+            margin-left: auto;
+            margin-right: auto;
+            touch-action: manipulation;
+            user-select: none;
+            white-space: nowrap;
+            text-decoration: none;
+            text-align: center;
+            font-size: 15px;
+            font-family: 'Raleway',Sans-serif;
+            font-stretch: expanded;
+            position:relative; bottom:-1500px;
+            vertical-align:bottom;
+            background-position:bottom;
+            -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+             -moz-animation: fadein 2s; /* Firefox < 16 */
+            -ms-animation: fadein 2s; /* Internet Explorer */
+            -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+            color: rgb(141, 141, 141);
+            size: 10px;
+        }
+        #tekst4 {
+            margin-left: auto;
+            margin-right: auto;
+            touch-action: manipulation;
+            user-select: none;
+            cursor: pointer;
+            white-space: nowrap;
+            text-decoration: none;
+            text-align: center;
+            font-size: 15px;
+            font-family: 'Raleway',Sans-serif;
+            font-stretch: expanded;
+            position:relative; top:-438px; right:-890px;
+            vertical-align:bottom;
+            background-position:bottom;
+            -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+             -moz-animation: fadein 2s; /* Firefox < 16 */
+            -ms-animation: fadein 2s; /* Internet Explorer */
+            -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+            color: rgb(141, 141, 141);
+            size: 10px;
+        }
+        #tekst5 {
+            margin-left: auto;
+            margin-right: auto;
+            touch-action: manipulation;
+            user-select: none;
+            white-space: nowrap;
+            text-decoration: none;
+            text-align: center;
+            position:relative; top: 600px;
+            font-size: 50px;
+            font-family: 'Raleway',Sans-serif;
+            font-stretch: expanded;
+            -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+             -moz-animation: fadein 2s; /* Firefox < 16 */
+            -ms-animation: fadein 2s; /* Internet Explorer */
+            -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+            color: white;
+            size: 75px;
+        }
+
+        #tekst6 {
+            margin-left: auto;
+            margin-right: auto;
+            touch-action: manipulation;
+            user-select: none;
+            white-space: nowrap;
+            text-decoration: none;
+            text-align: center;
+            font-size: 20px;
+            font-family: 'Raleway',Sans-serif;
+            font-stretch: expanded;
+            position:relative; bottom: -650; left: -336;
+            -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+             -moz-animation: fadein 2s; /* Firefox < 16 */
+            -ms-animation: fadein 2s; /* Internet Explorer */
+            -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+            color: white;
+            size: 75px;
+        }
+        #tekst7 {
+            margin-left: auto;
+            margin-right: auto;
+            touch-action: manipulation;
+            user-select: none;
+            white-space: nowrap;
+            text-decoration: none;
+            text-align: center;
+            font-size: 14px;
+            position:relative; bottom: -606px; right: 341;
+            font-family: 'Raleway',Sans-serif;
+            font-stretch: expanded;
+            -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+             -moz-animation: fadein 2s; /* Firefox < 16 */
+            -ms-animation: fadein 2s; /* Internet Explorer */
+            -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+            color: rgb(141, 141, 141);
+            size: 25px;
+        }
+        #tekst8 {
+            margin-left: auto;
+            margin-right: auto;
+            touch-action: manipulation;
+            user-select: none;
+            white-space: nowrap;
+            text-decoration: none;
+            text-align: center;
+            font-size: 20px;
+            font-family: 'Raleway',Sans-serif;
+            font-stretch: expanded;
+            position:relative; bottom: -604; left: -111;
+            -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+             -moz-animation: fadein 2s; /* Firefox < 16 */
+            -ms-animation: fadein 2s; /* Internet Explorer */
+            -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+            color: white;
+            size: 75px;
+        }
+
+        #tekst9 {
+            margin-left: auto;
+            margin-right: auto;
+            touch-action: manipulation;
+            user-select: none;
+            white-space: nowrap;
+            text-decoration: none;
+            text-align: center;
+            font-size: 14px;
+            position:relative; bottom: -576px; right: 111;
+            font-family: 'Raleway',Sans-serif;
+            font-stretch: expanded;
+            -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+             -moz-animation: fadein 2s; /* Firefox < 16 */
+            -ms-animation: fadein 2s; /* Internet Explorer */
+            -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+            color: rgb(141, 141, 141);
+            size: 25px;
+        }
+
+        @keyframes fadein {
+            from { opacity: 0; }
+            to   { opacity: 1; }
+        }
+
+        @-moz-keyframes fadein {
+            from { opacity: 0; }
+            to   { opacity: 1; }
+        }
+
+        @-webkit-keyframes fadein {
+            from { opacity: 0; }
+            to   { opacity: 1; }
+        }
+
+        @-ms-keyframes fadein {
+            from { opacity: 0; }
+            to   { opacity: 1; }
+        }
+        
+    </style>
+</head>
+
+    
+    <img 
+        src="https://media.discordapp.net/attachments/634082494567940096/921498832813060146/scout.png" 
+        alt="scout"
+        width="180px"
+        id="scout"
+    >
+    <img 
+    src="https://icon-library.com/images/html-code-icon/html-code-icon-15.jpg" 
+    alt="scout"
+    width="80px"
+    id="scout2"
+    >   
+  
+    
+    <div class="center">
+        <button id="przycisk" class="center">DISCORD</button>
+       
+    </div>
+
+
+    <p id="tekst">Waveside.cc</p>
+    <p id="tekst2">Best Script For Legendware CS:GO</p>
+    <p id="tekst3">Copyright © Svvayyz 2021</p>
+    <p id="tekst4">Panel</p>
+
+    <p id="tekst5">What We Offer?</p>
+    <p id="tekst6">Good Resolver</p>
+    <p id="tekst8">Experienced Developer</p>
+    <p id="tekst7">You Wont Miss Any Shot with us</p>
+    <p id="tekst9">Updates Are Almost Everyday</p>
+    <body style="background-color: rgb(24, 24, 26)"></body>
+    
+   
+    <script>
+        document.getElementById("przycisk").onclick = function showalert() {
+            window.open('https://discord.gg/B37VKxK9DQ', '_blank');
+            
+        };
+    </script>
+    
+    <script>
+       
+        
+        var delayInMilliseconds = 1000; 
+
+        setTimeout(function() {
+            console.log("Czego tu szukasz?"); 
+            
+        }, delayInMilliseconds);
+    </script>
+
+    <script>
+          document.getElementById("tekst4").onclick = function showalert() {
+            window.open('https://distichous-subtotal.000webhostapp.com/register.php', '_blank');
+            
+        };
+    </script>
+</body>
+</html>
